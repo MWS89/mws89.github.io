@@ -1,7 +1,5 @@
 $(document).ready(function () {
     app.init();
-
-    showA2HSPrompt();
 })
 
 var videoList = [
