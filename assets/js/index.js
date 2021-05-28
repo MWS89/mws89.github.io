@@ -67,6 +67,8 @@ var app = {
             this.getDownloadTool(videoList[i])
         }
 
+        this.availableStorage();
+
     },
     async getDownloadTool(item) {
         await db.init();
@@ -134,6 +136,9 @@ var app = {
                 db.db.put(videoRow).then(function (result) {
                     //alert('video success download , can watch in download list')
                     self.getDownloadTool(video)
+
+                    self.availableStorage();
+
                 }).catch(function (err) {
                     console.log(err);
                 });
@@ -150,7 +155,20 @@ var app = {
         $('.modal_view').css('display','flex')
         console.log(blobUrl)
     },
+    availableStorage(){
+
+        if ('storage' in navigator && 'estimate' in navigator.storage) { 
+            navigator.storage.estimate() 
+                .then(function(estimate){
+                    console.log("Updating Storage");
+                    document.querySelector('.used').textContent = estimate.usage;
+                    document.querySelector('.available').textContent = estimate.quota;
+        }); 
+    }
 }
+
+}
+
 
 var db = {
     db: null,
