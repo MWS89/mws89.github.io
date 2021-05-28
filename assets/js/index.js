@@ -171,7 +171,7 @@ var app = {
 
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker
-        .register('/sw.js')
+        .register('/assets/js/sw.js')
         .then(() => { console.log('Service Worker Registered'); });
 }
 
