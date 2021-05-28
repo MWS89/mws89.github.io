@@ -14,6 +14,6 @@
  "theme_color": "#FE9901",
  "background_color": "#1D1F45",
  "display": "standalone",
- "scope": "https://mws89.github.io/",
-  "start_url": "https://mws89.github.io/"
+ "scope": "/",
+ "start_url": "/"
 }
