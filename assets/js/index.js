@@ -6,27 +6,12 @@ var videoList = [
     {
         id: 1,
         title: "step one",
-        src: "video/v2.mp4"
+        src: "video/ForcePhoto.mp4"
     },
     {
         id: 2,
         title: "step two",
-        src: "video/v2.mp4"
-    },
-    {
-        id: 3,
-        title: "step three",
-        src: "video/v2.mp4"
-    },
-    {
-        id: 4,
-        title: "step four",
-        src: "video/v2.mp4"
-    },
-    {
-        id: 5,
-        title: "step five",
-        src: "video/v2.mp4"
+        src: "video/SelectLoadIssue.mp4"
     }
 ]
 
