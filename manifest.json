@@ -6,7 +6,7 @@
  "description":"Download Offline",
  "icons": [
     {
-      "src": "media/fox-icon.png",
+      "src": "/assets/media/fox-icon.png",
       "sizes": "192x192",
       "type": "image/png"
     }
