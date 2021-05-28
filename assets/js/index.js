@@ -171,6 +171,12 @@ var app = {
 
 }
 
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker
+        .register('/sw.js')
+        .then(() => { console.log('Service Worker Registered'); });
+}
+
 let deferredPrompt;
 
 window.addEventListener('beforeinstallprompt', (e) => {
