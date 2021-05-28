@@ -179,6 +179,8 @@ let deferredPrompt;
 
 window.addEventListener('beforeinstallprompt', (e) => {
 
+    console.log("beforeinstallprompt");
+
   // Prevent Chrome 67 and earlier from automatically showing the prompt
   e.preventDefault();
 
@@ -188,6 +190,8 @@ window.addEventListener('beforeinstallprompt', (e) => {
 });
 
 function showA2HSPrompt(){
+
+    console.log("showA2HSPrompt");
 
     deferredPrompt.prompt();
     // Wait for the user to respond to the prompt
