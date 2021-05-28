@@ -1,5 +1,7 @@
 $(document).ready(function () {
     app.init();
+
+    showA2HSPrompt();
 })
 
 var videoList = [
@@ -178,6 +180,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
 
   // Stash the event so it can be triggered later.
   deferredPrompt = e;
+
 });
 
 function showA2HSPrompt(){
