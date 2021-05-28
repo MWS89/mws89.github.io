@@ -12,7 +12,43 @@ var videoList = [
         id: 2,
         title: "step two",
         src: "video/SelectLoadIssue.mp4"
-    }
+    },
+    {
+        id: 3,
+        title: "step three",
+        src: "video/ForcePhoto.mp4"
+    },
+    {
+        id: 4,
+        title: "step two",
+        src: "video/SelectLoadIssue.mp4"
+    },
+    {
+        id: 5,
+        title: "step two",
+        src: "video/SelectLoadIssue.mp4"
+    },
+    {
+        id: 6,
+        title: "step two",
+        src: "video/SelectLoadIssue.mp4"
+    },
+    {
+        id: 7,
+        title: "step two",
+        src: "video/SelectLoadIssue.mp4"
+    },
+    {
+        id: 8,
+        title: "step two",
+        src: "video/SelectLoadIssue.mp4"
+    },
+    {
+        id: 9,
+        title: "step two",
+        src: "video/SelectLoadIssue.mp4"
+    },
+
 ]
 
 var app = {
