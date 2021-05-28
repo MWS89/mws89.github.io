@@ -13,7 +13,7 @@
   ],
  "theme_color": "#FE9901",
  "background_color": "#1D1F45",
- "display": "fullscreen",
+ "display": "standalone",
  "scope": "/",
  "start_url": "https://mws89.github.io/"
 }
